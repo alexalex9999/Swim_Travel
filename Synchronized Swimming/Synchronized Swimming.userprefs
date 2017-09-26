@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/fps.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/rotate.cs">
     <Files>
-      <File FileName="Assets/fps.cs" Line="22" Column="24" />
-      <File FileName="Assets/rotate.cs" Line="15" Column="2" />
+      <File FileName="Assets/rotate.cs" Line="33" Column="38" />
+      <File FileName="Assets/fps.cs" Line="19" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
