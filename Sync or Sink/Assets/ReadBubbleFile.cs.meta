@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d99c63f4914357a468eb02fd8b0aa33e
+timeCreated: 1506562743
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bubbleSong: {fileID: 8300000, guid: 10cbaf706588c744b919b4e4674bd901, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
