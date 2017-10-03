@@ -1,0 +1,19 @@
+Decent Black,25 
+1 j,d 120
+2 d,k,f
+3 d,k,j
+4 d,k,j,f 
+5 d
+5.3 k
+5.6 j
+6 f 240
+6.5 f 
+7 d,f,j,k
+7.1 d
+7.2 f
+7.3 j
+7.4 k
+7.5 d,f
+7.6 f,j
+7.7 f,k
+7.8 d,k
