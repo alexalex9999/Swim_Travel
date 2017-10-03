@@ -17,7 +17,7 @@ public class ReadBubbleFile : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		bubbleSong = GetComponent<AudioSource> (); // fixed compiler error?
+		bubbleClip = GetComponent<AudioClip>(); // fixed compiler error?
 		var fileReader = new StreamReader (Application.dataPath + "/" + bubbleFileName + ".txt");
 		var fileContents = fileReader.ReadToEnd();
 		fileReader.Close ();
@@ -56,6 +56,7 @@ public class ReadBubbleFile : MonoBehaviour {
 				}
 			}
 		}
+
 
 		bubbleSong.Play ();
 	}

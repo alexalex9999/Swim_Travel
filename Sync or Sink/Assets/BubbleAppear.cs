@@ -17,6 +17,7 @@ public class BubbleAppear : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		BPM = bpmDefault;
+
 		//if((gameObject.transform.position.y)>=24){
 		//	gameObject.SendMessage ("BPMChange", 4);
 	//	}
