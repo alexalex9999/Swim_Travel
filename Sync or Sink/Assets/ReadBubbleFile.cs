@@ -6,9 +6,9 @@ using System;
 
 [RequireComponent(typeof(AudioSource))]
 public class ReadBubbleFile : MonoBehaviour {
-	
+
 	public string bubbleFileName;
-	public AudioSource bubbleSong = GetComponent<AudioSource>;
+	public AudioSource bubbleSong;// moved initialization to start()
 	public AudioClip bubbleClip;
 	public string[] bubbleTrack;
 	public int[] bpmTrack;
@@ -17,7 +17,7 @@ public class ReadBubbleFile : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		bubbleSong = GetComponent<AudioSource> (); // fixed compiler error?
 		var fileReader = new StreamReader (Application.dataPath + "/" + bubbleFileName + ".txt");
 		var fileContents = fileReader.ReadToEnd();
 		fileReader.Close ();
